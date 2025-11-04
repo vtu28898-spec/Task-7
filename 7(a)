@@ -1,0 +1,16 @@
+# Program to analyze and manipulate a list of student grades
+
+grades = [85, 92, 78, 90, 88, 76, 95]
+
+print("Student Grades:", grades)
+print("Number of Students:", len(grades))
+print("Data Type:", type(grades))
+print("Highest Grade:", max(grades))
+print("Lowest Grade:", min(grades))
+print("Grades in Ascending Order:", sorted(grades))
+print("Grades in Descending Order:", sorted(grades, reverse=True))
+print("Reversed Grades:", list(reversed(grades)))
+
+print("Grades using range and index:")
+for i in range(len(grades)):
+    print(f"Student {i+1} Grade:", grades[i])
